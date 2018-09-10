@@ -1,5 +1,6 @@
 // to solve this is important to understand BigO notation and time complexity
 
+//  this is my solution  but is not eficient   becousei use a exponential runtime
 function harmlessRansomNote(noteText, magazineText) {
   var newnoteText = noteText.split(" ");
   var newmagazineText = magazineText.split(" ");
