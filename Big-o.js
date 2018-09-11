@@ -33,3 +33,24 @@ function addAndLog(array) {
 addAndLog(["a", "b", "c"]); // 9 pairs logged out
 addAndLog(["a", "b", "c", "d"]); // 16 pairs logged out
 addAndLog(["a", "b", "c", "d", "e"]); // 25 pairs logged out
+
+//Logarithmic runtime
+// Big O notation : O(log n)
+function binarySearch(array, key) {
+  var low = 0;
+  var high = array.length - 1;
+  var mid;
+  var element;
+  while (low <= high) {
+    mid = Math.floor((low + high) / 2, 10);
+    element = array[mid];
+    if (element < key) {
+      low = mid - 1;
+    } else if (element > key) {
+      high = mid + 1;
+    } else {
+      return mid;
+    }
+  }
+  return -1;
+}
