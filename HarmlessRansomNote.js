@@ -21,5 +21,5 @@ function harmlessRansomNote(noteText, magazineText) {
 }
 
 var note = "this is the note";
-var magazing = "this is the note ";
+var magazing = "this is the note";
 harmlessRansomNote(note, magazing);
