@@ -59,3 +59,5 @@ function harmlessRansomNote(noteText, magazineText) {
   //  then we just return the variable
   return isPosible;
 }
+//  this solution has alinear time complexity we do have two loops but they are note nested
+// lineat Time Complexity O(n)+)(m) or O(m+n)
